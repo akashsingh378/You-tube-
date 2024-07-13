@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+
+}
+
+#nav{
+    position: fixed;
+    width: 100%;
+    /*background-color: red;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+}
+#nav h3{
+    background-color: black;
+    color: #fff;
+    padding: 15px 25px;
+    margin-left: 5px;
+    font-size: 22px;
+    border-radius: 50px;
+}
+#intro{
+    height: 60%;
+    width: 100%;
+   /* background-color: bisque;*/
+    padding: 55px 60px;
+}
+
+#intro h1{
+    font-size: 145px;
+    letter-spacing: -3px;
+    line-height: 133px;
+}
+#place{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#place h3,#place h4{
+    font-size: 33px;
+    font-weight: 600;
+}
+
+#hero-image{
+    height: 85%;
+    width: 100%;
+    /*background-color: orange;*/
+    background-image: url(https://wallpapers-clan.com/wp-content/uploads/2024/04/haikyuu-hinata-dark-orange-desktop-wallpaper-preview.jpg);
+    background-size: cover;
+        margin-bottom: 90px;
+}
+
+#about{
+    height: 50%;
+    width: 100%;
+    /*background-color:rgb(241, 191, 126);*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+}
+#about h2{
+    /*background-color: red;*/
+    width: 62%;
+    font-size: 92px;
+    font-weight: 600;
+    line-height: 83px;
+    letter-spacing: -2px;
+    margin-bottom: 90px;
+}
+#about-part2{
+    width: 35%;
+    height: 100%;
+    padding: 0 60px;
+    border-left: 2px solid #000;
+    /*background-color: blue;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#about-part2 h3{
+    font-size: 35px;
+    font-weight: 600;
+}
+#icons{
+    /*background-color: red;*/
+
+}
+
+#icons i{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: 27px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+#work{
+    height: 45%;
+    width: 100%;
+    border-top: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+}
+#work1{
+    width: 35%;
+    height: 100%;
+    /*background-color: aqua*/
+    display: flex;
+    padding-right: 60px;
+    justify-content: space-between;
+    border-right: 2px solid #000;
+}
+#work1 h3{
+    font-size: 33px;
+    font-weight: 600;
+}
+#work1 i{
+    font-size: 35px;
+}
+#work2{
+    width: 65%;
+    height: 100%;
+    /*background-color: rosybrown;*/
+    padding: 0 60px;
+}
+.work2-part{
+    /*background-color: red;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.work2-part:nth-child(1){
+    border-bottom: 2px solid #000;
+}
+.work2-part .elem{
+    width: 50%;
+    height: 100%;
+}
+.work2-part .elem:nth-child(1){
+    border-right: 2px solid #000;
+    padding-right: 50px;
+}
+
+.work2-part .elem:nth-child(2){
+    padding-left: 50px;
+}
+.work2-part .elem h4{
+    font-size: 45px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.work2-part .elem p{
+    font-size: 18px;
+    color: #5a5757;
+    font-weight: 500;
+}
+
+

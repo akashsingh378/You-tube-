@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /*background-color: aquamarine;*/
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   /* background-color: red;*/
+   padding: 45px 65px;
+}
+#nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+#nav h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+#nav h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+#nav h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+#content{
+    margin-top: 60px;
+    padding: 40px 65px;
+}
+#content h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+#content h1{
+    margin-top: 45px;
+    font-size: 150px;
+    line-height: 165px;
+    letter-spacing: -9px;
+    font-weight: 500;
+    word-spacing: 12px;
+}
+#case{
+    padding: 40px 65px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case h4{
+    font-size: 26px;
+    font-weight: 600;
+}
+#case h5{
+    font-size: 26px;
+    font-weight: 600;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#line{
+    height: 2px;
+    width: 160px;
+    background-color: #000;
+}
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 65px;
+    gap: 80px;
+}
+.elem{
+    width: 50%;
+}
+.elem-img{
+    height:770px;
+    width: 100%;
+    background-color: rgb(189, 227, 253);
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+}
+#img1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa3zegDJ-ra6e2J9St4iSzOMG6CtcrTGu3Og&s);
+}
+#img2{
+    background-image: url(https://www.shutterstock.com/shutterstock/photos/2196878275/display_1500/stock-photo-stuttgart-germany-person-holding-smartphone-with-logo-of-streaming-service-amazon-2196878275.jpg);
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.bottom i{
+    padding: 14px 30px;
+    font-size: 22px;
+    border: 2px solid #000;
+    border-radius: 50px;
+    font-weight: 800;
+}
+.bottom i:hover{
+    background-color: black;
+    color: #fff;
+}
+.bottom h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.bottom h4{
+    font-size: 20px;
+    color: #9d9d9d;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
