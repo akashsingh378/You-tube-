@@ -1,13 +1,58 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unity-Style Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="unity-logo.svg" alt="Unity Logo">
+        </div>
+        <div class="nav-links">
+            <a href="#products">Products</a>
+            <a href="#solutions">Solutions</a>
+            <a href="#learn">Learn</a>
+            <a href="#support">Support</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Create Without Limits</h1>
+            <p>Build immersive real-time experiences with Unity</p>
+            <div class="cta-buttons">
+                <button class="primary-btn">Get Started</button>
+                <button class="secondary-btn">Watch Demo</button>
+            </div>
+        </div>
+        <div class="hero-3d">
+            <canvas id="unity-logo-3d"></canvas>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <div class="feature-3d">
+                <model-viewer src="game-engine.glb" auto-rotate camera-controls></model-viewer>
+            </div>
+            <h3>Game Engine</h3>
+            <p>Create stunning games with our powerful engine</p>
+        </div>
+        <!-- Add more feature cards -->
+    </section>
+
+    <section class="showcase">
+        <video id="demo-reel" autoplay muted loop>
+            <source src="unity-demo.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
